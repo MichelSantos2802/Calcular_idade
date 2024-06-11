@@ -29,7 +29,7 @@ public class FormSimp {
         JLabel senhaLabel = new JLabel("Sua senha:");
         JPasswordField campoSenha = new JPasswordField(15); // JPasswordField para senha
         
-        JButton botaoEnviar = new JButton("Enviar");
+        JButton botaoEnviar = new JButton("Enviar");// botão enviar
 
         painelConteudo.add(nomeLabel);
         painelConteudo.add(campoNome);
