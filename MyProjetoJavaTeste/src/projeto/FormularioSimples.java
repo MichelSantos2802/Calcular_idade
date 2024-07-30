@@ -41,11 +41,13 @@ public class FormularioSimples {
             // Obter o texto digitado nos campos de nome e email
             String nome = campoNome.getText();
             String email = campoEmail.getText();
+            System.out.println(campoNome.getText());
+            System.out.println(campoEmail.getText());
 
             // Exibir mensagem de confirmação
             JOptionPane.showMessageDialog(janela, "Nome: " + nome + "\nEmail: " + email);
         });
-
+        	
         // Torna a janela visível
         janela.setVisible(true);
     }
